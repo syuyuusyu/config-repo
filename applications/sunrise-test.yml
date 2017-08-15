@@ -85,7 +85,7 @@ mybatis:
 # 日志配置
 logging:
   config: classpath:config/logback-spring.xml
-  path: /var/log/sunrise
+  path: /var/log/applications/sunrise
   level:
     com.bzkj.sunsrise.dao: DEBUG
 
